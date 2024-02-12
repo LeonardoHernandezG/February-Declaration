@@ -6,7 +6,7 @@ export const useChangeElements = () => {
     const [textP, setTextP] = useState('Vamos, respondeme! ')
     const [image, setImage] = useState('https://i.pinimg.com/originals/f6/a5/f7/f6a5f7ddff1f05cbcc560256b9f98c2e.gif')
 
-    const options = ['Segura?', 'Segurisima?', 'Estas completamente segura?', 'No te arrepentiras?', 'Pero si estas segura?', 'No hay vuelta atras', 'No hay devoluciones', 'No hay garantias', 'No hay reembolsos', 'No hay cambios', 'No hay nada', 'No hay', 'Que no hay']
+    const options = ['Segura?', 'Segurisima?', 'Estas completamente segura?', 'No te arrepentiras?', 'Pero si estas segura?', 'No hay vuelta atras', 'No hay devoluciones', 'No hay garantias', 'No hay reembolsos', 'No hay cambios', 'No hay nada', 'No hay', 'Que no hay',"O NADA","O Nadota","Andele Papa","Andeleeee"]
 
     const handleButtonNo = () => {
         setIndex(index + 1)
@@ -18,7 +18,8 @@ export const useChangeElements = () => {
 
     const handleButtonYes = () => {
         setImage("https://i.pinimg.com/originals/e4/9d/7b/e49d7b7e965f09e31b498314b02e3662.gif")
-        setTextP('Gracias por aceptar, te amo mucho <3')
+        setTextP('Gracias por aceptar, MUCHISIMO AMORCITO <3')
+        setTextP('¡Eres la persona mas increible en mi vida amorcito!')
         confetti()
     }
 
